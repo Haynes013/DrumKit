@@ -46,12 +46,12 @@ function playNote(key) {
   }
 }
 
-function buttonAnimation(cKey){
-    var activeButton = document.querySelector('.'+ cKey)
-    activeButton.classList.add('pressed')
-    setTimeout(function(){
-        activeButton.classList.remove('pressed')
-    },100)
+function buttonAnimation(cKey) {
+  var activeButton = document.querySelector("." + cKey);
+  activeButton.classList.add("pressed");
+  setTimeout(function () {
+    activeButton.classList.remove("pressed");
+  }, 100);
 }
 
 // create a variable to counts the number of drums
@@ -65,13 +65,13 @@ for (let i = 0; i < numOfDrums; i++) {
     //    create a variable to collect the inner html
     var buttonInnerHTML = this.innerHTML;
     playNote(buttonInnerHTML);
-    buttonAnimation(buttonInnerHTML)
+    buttonAnimation(buttonInnerHTML);
   });
 }
 
 document.addEventListener("keydown", function (event) {
-    playNote(event.key)
-    buttonAnimation(event.key)
+  playNote(event.key);
+  buttonAnimation(event.key);
 });
 
 // var audio = new Audio('sounds/tom-1.mp3')

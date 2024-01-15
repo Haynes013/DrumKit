@@ -1,4 +1,4 @@
-html{
+html {
   font-size: 62.5%;
 }
 body {
@@ -10,41 +10,40 @@ h1 {
   font-size: 8rem;
   color: #2b2a2a;
   font-family: "Arvo", cursive;
-  text-shadow: 0.3rem 0.1rem 0.3rem  #ffe2e2;
-
+  text-shadow: 0.3rem 0.1rem 0.3rem #ffe2e2;
 }
 
 footer {
-  color: #DBEDF3;
+  color: #dbedf3;
   font-family: sans-serif;
 }
 
 .w {
-  background-image: url("images/crash.png")
+  background-image: url("images/crash.png");
 }
 
 .a {
-  background-image: url("images/kick.png")
+  background-image: url("images/kick.png");
 }
 
 .s {
-  background-image: url("images/snare.png")
+  background-image: url("images/snare.png");
 }
 
 .d {
-  background-image: url("images/tom1.png")
+  background-image: url("images/tom1.png");
 }
 
 .j {
-  background-image: url("images/tom2.png")
+  background-image: url("images/tom2.png");
 }
 
 .k {
-  background-image: url("images/tom3.png") 
+  background-image: url("images/tom3.png");
 }
 
 .l {
-  background-image: url("images/tom4.png")
+  background-image: url("images/tom4.png");
 }
 
 .set {
@@ -57,9 +56,8 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 0.3rem 0.4rem 0 #DBEDF3;
+  box-shadow: 0 0.3rem 0.4rem 0 #dbedf3;
   opacity: 0.5;
-  
 }
 
 .red {
@@ -70,11 +68,11 @@ footer {
   outline: none;
   border: 10px solid #19191a86;
   font-size: 7rem;
-  font-family: 'Arvo', cursive;
+  font-family: "Arvo", cursive;
   line-height: 2;
   font-weight: 900;
   color: #da0404;
-  text-shadow: 0.3rem 0 #DBEDF3;
+  text-shadow: 0.3rem 0 #dbedf3;
   border-radius: 1.5rem;
   display: inline-block;
   width: 15rem;
